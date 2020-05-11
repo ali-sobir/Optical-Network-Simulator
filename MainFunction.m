@@ -133,7 +133,7 @@ for z= 1:No_of_iterations                      % Loop to repeat whole simulation
         %%  Checking Resource's availability (FOR SPECTRUM ALLOCATION)
                 
                 NoOfNodes = length(CurrentEvent.Route);                            % Total no of nodes in this event's route.
-                [flag1, WavelengthIndexes] = RESOURCECHECKING(CurrentEvent.Bandwidth,NoOfNodes , Spectrum_Status, CurrentEvent.Route, Total_wavelength);
+                [flag1, WavelengthIndexes] = ResourcesChecking(CurrentEvent.Bandwidth,NoOfNodes , Spectrum_Status, CurrentEvent.Route, Total_wavelength);
                 
                 if flag1                                                           % Here, flag1 =1 [Indicator of Resource's availability].
                     % When network is in steady state, we'll start counting blocked_requests
