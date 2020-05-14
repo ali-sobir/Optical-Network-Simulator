@@ -1,5 +1,8 @@
 # Optical-Network-Simulator
 
+This Simulator runs simulations for NSF Network in which links are bidirectional. Shortest Routes have been found by 'Dijkstra algorithm' and First Fit technique is adopted in spectrum allocation. Total of 15 wavelengths are available at each link and 1 wavelength is given to every connection. If you want to simulate for different parameters, see below:  
+
+
 To start simulations, open MainFunction.m file and Run.
 
 If you want to change Network topology, take out nsf_network.mat file.
