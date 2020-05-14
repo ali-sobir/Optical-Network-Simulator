@@ -2,7 +2,7 @@
 
 To start simulations, open MainFunction.m file and Run.
 
-If you want to change Network topology, take out nsf_network.m file.
+If you want to change Network topology, take out nsf_network.mat file.
 
 If you want to make modifications in Spectrum Allocation Algorithm or change it, Take out ResourcesChecking.m file.
 
