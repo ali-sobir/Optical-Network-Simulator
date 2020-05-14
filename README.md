@@ -15,4 +15,4 @@ etc and etc....
 
 
 
-#If you still face any issue you can reach me at alisobir@gmail.com
+#If you still face any issue, I'm available at alisobir@gmail.com
