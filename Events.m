@@ -31,7 +31,7 @@ classdef  Events  < handle
         end
         
         function GetItsRoute(Object,network,Source,Destination)
-            Object.Route = ROUTING_dijkstra(network,Source,Destination);
+            Object.Route = RoutingDijkstra(network,Source,Destination);
            
         end
         
