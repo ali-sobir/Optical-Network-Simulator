@@ -1,4 +1,4 @@
-# Optical-Network-Simulator
+# Optical-Network-Simulator [Event Driven]
 #To start simulations, open MainFunction.m file and Run.
 
 The Requests arriving in the network follows Poisson arrival process and their holding time are calculated from negative exponential probability distribution. Wavelength continuity consraint has been satisfied for setting every connection up. 
