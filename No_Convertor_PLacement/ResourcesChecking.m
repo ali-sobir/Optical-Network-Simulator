@@ -1,4 +1,4 @@
-function [flag, WavelengthIndexes] = ResourcesChecking_NoPlacement(BW, total_nodes, Links, shortestPaths, No_of_FS )
+function [flag, WavelengthIndexes] = ResourcesChecking(BW, total_nodes, Links, shortestPaths, No_of_FS )
 
 %   TotalHops = total_nodes -1;
 %   Links : Spectrum status

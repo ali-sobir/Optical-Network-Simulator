@@ -1,4 +1,4 @@
-function [shortestPath, totalCost] = dijkstra(netCostMatrix, s, d)
+function [shortestPath, totalCost] = RoutingDijkstra(netCostMatrix, s, d)
 %==============================================================
 % shortestPath: the list of nodes in the shortestPath from source to destination;
 % totalCost: the total cost of the  shortestPath;
