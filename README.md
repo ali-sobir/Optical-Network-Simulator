@@ -1,7 +1,7 @@
 # Optical-Network-Simulator [Event Driven]
 #To start simulations, open MainFunction.m file and Run.
 
-The Requests arriving in the network follows Poisson arrival process and their holding time are calculated from negative exponential probability distribution. Wavelength continuity consraint has been satisfied for setting every connection up. 
+The Requests arriving in the network follows Poisson arrival process and their holding time are calculated from negative exponential probability distribution. Wavelength continuity consraint has been satisfied for setting every connection up in No Converter Placement. 
 
 This Simulator runs simulations for NSF Network in which links are bidirectional. Shortest Routes have been found by 'Dijkstra algorithm' and First Fit technique is adopted in spectrum allocation. Total of 15 wavelengths are available at each link and 1 wavelength is given to every connection. If you want to simulate for different parameters, see below:  
 
