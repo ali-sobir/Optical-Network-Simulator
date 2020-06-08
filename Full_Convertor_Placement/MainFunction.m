@@ -155,7 +155,7 @@ for z= 1:No_of_iterations                                                       
                 NoOfNodes = length(CurrentEvent.Route);                            % Total no of nodes in this event's route.
                 
                 
-                [flag1, WavelengthIndexes] = ResourcesChecking_SimpleFullPlacement1(CurrentEvent.Bandwidth,NoOfNodes , Spectrum_Status, CurrentEvent.Route, Total_wavelengths);
+                [flag1, WavelengthIndexes] = ResourcesChecking_SimpleFullPlacement3(CurrentEvent.Bandwidth,NoOfNodes , Spectrum_Status, CurrentEvent.Route, Total_wavelengths);
                 
                 if flag1                                                           % Here, flag1 =1 [Indicator of Resource's availability].
                     
